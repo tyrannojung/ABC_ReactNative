@@ -6,7 +6,7 @@ const Blocks = () => {
   return (
     <WebView
       source={{
-        uri: "http://192.168.0.34:8080/",
+        uri: "https://bts-app.nodehome.io/",
       }}
       // 디바이스 체크
       injectedJavaScript={

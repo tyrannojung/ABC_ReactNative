@@ -15,6 +15,7 @@
     "@react-navigation/stack": "^5.14.5",
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
+    "lightweight-charts": "^3.4.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

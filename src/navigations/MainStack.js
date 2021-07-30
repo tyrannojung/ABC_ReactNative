@@ -1,7 +1,17 @@
 import React, { useContext } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { lightTheme, darkTheme } from "../theme/theme";
-import { Category, Defi, Service, Privacy, Product, Blocks } from "../screens";
+import {
+  Category,
+  Defi,
+  Service,
+  Privacy,
+  Product,
+  Blocks,
+  Chart,
+  News,
+  TotalPrice,
+} from "../screens";
 import MainTab from "./MainTab";
 import AppThemeContext from "../contexts/AppTheme";
 
@@ -37,6 +47,9 @@ const MainStack = () => {
       <Stack.Screen name="Defi" component={Defi} />
       <Stack.Screen name="Service" component={Service} />
       <Stack.Screen name="Privacy" component={Privacy} />
+      <Stack.Screen name="Chart" component={Chart} />
+      <Stack.Screen name="News" component={News} />
+      <Stack.Screen name="TotalPrice" component={TotalPrice} />
     </Stack.Navigator>
   );
 };
